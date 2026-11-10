@@ -1,0 +1,6 @@
+export function StatCard({ label, value }) {
+    return (<div className="rounded-xl border bg-card p-4">
+      <p className="text-sm text-muted-foreground">{label}</p>
+      <p className="mt-1 text-2xl font-semibold tabular-nums">{value}</p>
+    </div>);
+}
