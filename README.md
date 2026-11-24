@@ -6,7 +6,7 @@
 
 ![Smart Clinic cover](patientbooking-frontend/public/images/clinic-hero.png)
 
-[Features](#features) · [How it works](#how-it-works) · [Local setup](#local-setup) · [API](#api)
+[Features](#features) · [How it works](#how-it-works) · [Deployment](#deployment) · [Local setup](#local-setup) · [API](#api)
 
 ## Features
 
@@ -23,6 +23,15 @@
 3. Doctors see their assigned appointments, and administrators can review bookings across the clinic. Appointment statuses include pending, approved, cancelled, and completed.
 
 The **React** interface uses **Vite** and **Tailwind CSS**. An **Express** API handles sessions, role checks, scheduling, and data access. On patient sign-in, the API verifies the **Firebase** ID token and creates a cookie-based application session. **MongoDB** stores users, sessions, services, doctors, and appointments.
+
+## Deployment
+
+Both the frontend and backend are deployed on AWS.
+
+| Component | Live URL |
+| --- | --- |
+| React frontend on AWS Amplify | [Open Smart Clinic](https://master.d3478oam6crwuo.amplifyapp.com) |
+| Express backend on AWS | [Open the API](https://patientbooking-api.duckdns.org) · [Health endpoint](https://patientbooking-api.duckdns.org/api/health) |
 
 ## Local setup
 
