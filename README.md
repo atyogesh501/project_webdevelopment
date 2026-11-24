@@ -2,6 +2,8 @@
 
 **A web app for booking clinic appointments, managing doctor availability, and coordinating appointments across a clinic.**
 
+**[Open the live Smart Clinic demo](https://master.d3478oam6crwuo.amplifyapp.com)**
+
 ![Smart Clinic cover](patientbooking-frontend/public/images/clinic-hero.png)
 
 [Features](#features) · [How it works](#how-it-works) · [Local setup](#local-setup) · [API](#api)
