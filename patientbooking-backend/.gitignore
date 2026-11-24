@@ -5,9 +5,7 @@ node_modules/
 .pnp.js
 
 # Environment variables (Sensitive)
-.env
-.env.*
-!.env.example
+
 
 # Firebase credentials
 serviceAccountKey.json
